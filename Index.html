@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Happy Birthday Sapna ❤️</title>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to right, #ffecd2, #fcb69f);
+      color: #333;
+      overflow-x: hidden;
+    }
+    .top-banner {
+      background: #ff5e78;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      font-size: 1.2em;
+      font-weight: bold;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 1000;
+    }
+    header {
+      text-align: center;
+      padding: 100px 20px 50px;
+      background-color: rgba(255, 255, 255, 0.7);
+    }
+    header h1 {
+      font-family: 'Pacifico', cursive;
+      font-size: 3em;
+      color: #ff5e78;
+    }
+    .message {
+      max-width: 700px;
+      margin: 30px auto;
+      text-align: center;
+      background: #fff;
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    }
+    .photo-note {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      padding: 40px;
+    }
+    .photo-box {
+      width: 300px;
+      background: #fff;
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .photo-box img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+    }
+    .photo-box p {
+      padding: 15px;
+      font-size: 1em;
+      color: #555;
+    }
+    .reveal-btn {
+      display: block;
+      margin: 40px auto;
+      padding: 15px 35px;
+      font-size: 1.1em;
+      background-color: #ff5e78;
+      color: white;
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+    .reveal-btn:hover {
+      background-color: #ff3b5f;
+    }
+    #secret {
+      text-align: center;
+      margin: 20px;
+      display: none;
+      font-size: 1.2em;
+      color: #222;
+      background: #fff0f3;
+      padding: 30px;
+      border-radius: 15px;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .reveal-btn, #secret {
+      animation: fadeIn 1s ease;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+  <div class="top-banner">Happy Birthday Beta 🎉</div>
+
+  <header>
+    <h1>Happy Birthday Sapna 🎂❤️</h1>
+    <p>To the most beautiful girl in the world</p>
+  </header>
+
+  <section class="message">
+    <p>Dear Sapna,<br><br>
+    On your special day, I just want to remind you how much you mean to me. You're not just my girlfriend, you're my world, my sunshine, my biggest blessing. Every moment with you feels magical. I hope this birthday brings you as much happiness as you’ve brought into my life. 🥰💫<br><br>
+    Love you always,<br>
+    Aakash ❤️</p>
+  </section>
+
+  <section class="photo-note">
+    <div class="photo-box">
+      <img src="photo1.jpg" alt="Moment 1">
+      <p>Jab tu muskuraati hai na, lagta hai saari duniya roshan ho gayi 💖</p>
+    </div>
+    <div class="photo-box">
+      <img src="photo2.jpg" alt="Moment 2">
+      <p>Ye pal, ye yaadein — humesha mere dil ke kareeb rahengi 🥰</p>
+    </div>
+    <div class="photo-box">
+      <img src="photo3.jpg" alt="Moment 3">
+      <p>Tu sirf meri nahi, meri duaon ka jawab bhi hai ❤️</p>
+    </div>
+    <div class="photo-box">
+      <img src="photo4.jpg" alt="Moment 4">
+      <p>Jitna tujhe dekhta hu, utna khud se pyaar ho jaata hai 💫</p>
+    </div>
+    <div class="photo-box">
+      <img src="photo5.jpg" alt="Moment 5">
+      <p>Tu mere sapno ki nahi, meri haqeeqat ki rani hai 👑</p>
+    </div>
+  </section>
+
+  <button class="reveal-btn" onclick="showSurprise()">Click to Reveal Your Surprise 💌</button>
+
+  <div id="secret">
+    <p>🌟 Surprise! There’s more coming for you… just like how my love for you keeps growing every day. This is just the beginning! Can’t wait to see your smile when you open your gift. 💝<br><br>
+    <video width="100%" controls>
+      <source src="birthday_video.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video><br><br>
+    Happy Birthday once again, meri jaan! 🎉🎈</p>
+  </div>
+
+  <script>
+    function showSurprise() {
+      const secret = document.getElementById("secret");
+      secret.style.display = "block";
+      secret.scrollIntoView({ behavior: 'smooth' });
+    }
+  </script>
+</body>
+</html>

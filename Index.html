@@ -59,11 +59,20 @@
       overflow: hidden;
       box-shadow: 0 10px 20px rgba(0,0,0,0.1);
       text-align: center;
+      transition: transform 0.3s ease; /* Smooth transition for card hover */
+    }
+    .photo-box:hover {
+      transform: scale(1.05); /* Pura card zoom hoga */
     }
     .photo-box img {
       width: 100%;
-      height: 250px;
+      height: 350px;
       object-fit: cover;
+      transition: transform 0.3s ease, filter 0.3s ease; /* Smooth image transition */
+    }
+    .photo-box:hover img {
+      transform: scale(1.1); /* Image ko zoom karna jab card hover ho */
+      filter: brightness(1.2); /* Image ko bright karna */
     }
     .photo-box p {
       padding: 15px;
@@ -116,31 +125,31 @@
   </header>
 
   <section class="message">
-    <p>Dear Sapna,<br><br>
+    <p>Dear Wife ji,<br><br>
     On your special day, I just want to remind you how much you mean to me. You're not just my girlfriend, you're my world, my sunshine, my biggest blessing. Every moment with you feels magical. I hope this birthday brings you as much happiness as you’ve brought into my life. 🥰💫<br><br>
     Love you always,<br>
-    Aakash ❤️</p>
+    Your Honey ❤️</p>
   </section>
 
   <section class="photo-note">
     <div class="photo-box">
-      <img src="photo1.jpg" alt="Moment 1">
+      <img src="A1.jpeg" alt="Moment 1">
       <p>Jab tu muskuraati hai na, lagta hai saari duniya roshan ho gayi 💖</p>
     </div>
     <div class="photo-box">
-      <img src="photo2.jpg" alt="Moment 2">
+      <img src="A2.jpeg" alt="Moment 2">
       <p>Ye pal, ye yaadein — humesha mere dil ke kareeb rahengi 🥰</p>
     </div>
     <div class="photo-box">
-      <img src="photo3.jpg" alt="Moment 3">
+      <img src="A3.jpeg" alt="Moment 3">
       <p>Tu sirf meri nahi, meri duaon ka jawab bhi hai ❤️</p>
     </div>
     <div class="photo-box">
-      <img src="photo4.jpg" alt="Moment 4">
+      <img src="A5.jpeg" alt="Moment 4">
       <p>Jitna tujhe dekhta hu, utna khud se pyaar ho jaata hai 💫</p>
     </div>
     <div class="photo-box">
-      <img src="photo5.jpg" alt="Moment 5">
+      <img src="A4.jpeg" alt="Moment 5">
       <p>Tu mere sapno ki nahi, meri haqeeqat ki rani hai 👑</p>
     </div>
   </section>
@@ -150,11 +159,13 @@
   <div id="secret">
     <p>🌟 Surprise! There’s more coming for you… just like how my love for you keeps growing every day. This is just the beginning! Can’t wait to see your smile when you open your gift. 💝<br><br>
     <video width="100%" controls>
-      <source src="birthday_video.mp4" type="video/mp4">
+      <source src="Happy.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video><br><br>
     Happy Birthday once again, meri jaan! 🎉🎈</p>
   </div>
+
+  
 
   <script>
     function showSurprise() {

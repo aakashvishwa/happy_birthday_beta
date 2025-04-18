@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="robots" content="noindex, nofollow">
+  <title>Happy Birthday Sapna ❤️</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to right, #ffecd2, #fcb69f);
+      color: #333;
+      overflow-x: hidden;
+    }
+    .top-banner {
+      background: #ff5e78;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      font-size: 1.2em;
+      font-weight: bold;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 1000;
+    }
+    header {
+      text-align: center;
+      padding: 100px 20px 50px;
+      background-color: rgba(255, 255, 255, 0.7);
+    }
+    header h1 {
+      font-family: 'Pacifico', cursive;
+      font-size: 3em;
+      color: #ff5e78;
+    }
+
+    .slider-container {
+      width: 100%;
+      max-width: 1200px;
+      margin: 40px auto;
+      overflow: hidden;
+      border-radius: 20px;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+      position: relative;
+      aspect-ratio: 16 / 9;
+      background-color: #fff;
+    }
+
+    .slider {
+      display: flex;
+      width: 300%;
+      animation: slide 9s infinite;
+    }
+
+    .slider img {
+      width: 100%;
+      object-fit: contain;
+      flex-shrink: 0;
+      aspect-ratio: 16 / 9;
+      background-color: #fff;
+    }
+
+    @keyframes slide {
+      0% { transform: translateX(0); }
+      33.33% { transform: translateX(-100%); }
+      66.66% { transform: translateX(-200%); }
+      100% { transform: translateX(0); }
+    }
+
+    .message {
+      max-width: 700px;
+      margin: 30px auto;
+      text-align: center;
+      background: #fff;
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    }
+
+    .photo-note {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      padding: 40px;
+    }
+
+    .photo-box {
+      width: 300px;
+      background: #fff;
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+
+    .photo-box:hover {
+      transform: scale(1.05);
+    }
+
+    .photo-box img {
+      width: 100%;
+      height: 350px;
+      object-fit: cover;
+      transition: transform 0.3s ease, filter 0.3s ease;
+    }
+
+    .photo-box:hover img {
+      transform: scale(1.1);
+      filter: brightness(1.2);
+    }
+
+    .photo-box p {
+      padding: 15px;
+      font-size: 1em;
+      color: #555;
+    }
+
+    .reveal-btn {
+      display: block;
+      margin: 40px auto;
+      padding: 15px 35px;
+      font-size: 1.1em;
+      background-color: #ff5e78;
+      color: white;
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .reveal-btn:hover {
+      background-color: #ff3b5f;
+    }
+
+    #secret {
+      text-align: center;
+      margin: 20px;
+      display: none;
+      font-size: 1.2em;
+      color: #222;
+      background: #fff0f3;
+      padding: 30px;
+      border-radius: 15px;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .reveal-btn, #secret {
+      animation: fadeIn 1s ease;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+  <div class="top-banner">Happy Birthday Beta 🎉</div>
+
+  <header>
+    <h1>Happy Birthday Sapna 🎂❤️</h1>
+    <p>To the most beautiful girl in the world</p>
+  </header>
+
+<!-- Slider Start -->
+ <!-- Image Slider Start -->
+<div class="slider-wrapper">
+  <div id="birthdaySlider" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner rounded-4 shadow">
+      <div class="carousel-item active">
+        <img src="S1.jpeg" class="d-block w-100 slider-img" alt="Slide 1">
+      </div>
+      <div class="carousel-item">
+        <img src="S2.jpeg" class="d-block w-100 slider-img" alt="Slide 2">
+      </div>
+      <div class="carousel-item">
+        <img src="S3.jpeg" class="d-block w-100 slider-img" alt="Slide 3">
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- JS for carousel -->
+<script>
+  const carouselElement = document.querySelector('#birthdaySlider');
+  const carousel = new bootstrap.Carousel(carouselElement, {
+    interval: 3000,
+    ride: 'carousel',
+    pause: false,
+    wrap: true
+  });
+</script>
+
+<!-- Styling -->
+<style>
+  .slider-wrapper {
+    max-width: 90%;
+    margin: 50px auto;
+    padding: 0 20px;
+  }
+
+  .slider-img {
+    aspect-ratio: 16 / 9;
+    object-fit: contain; /* Image full dikhe, crop na ho */
+    border-radius: 20px;
+    background-color: #fff; /* In case image doesn’t fill full box */
+  }
+
+  .carousel-inner {
+    overflow: hidden;
+  }
+</style>
+
+
+  <section class="message">
+    <p>Dear Wife ji,<br><br>
+    On your special day, I just want to remind you how much you mean to me. You're not just my girlfriend, you're my world, my sunshine, my biggest blessing, my support system, my personal diary, my jaan, my betu, my queen and many more.
+    Every moment with you feels magical. I hope this birthday brings you as much happiness as you’ve brought into my life. 🥰💫<br><br>
+    Love you always,<br>
+    Your Honey ❤️</p>
+  </section>
+
+  <section class="photo-note">
+    <div class="photo-box">
+      <img src="B1.jpeg" alt="Moment 1">
+      <p>Meri Pyaari si jaan💖</p>
+    </div>
+    <div class="photo-box">
+      <img src="B2.jpeg" alt="Moment 2">
+      <p>My Queen with her sisters...🥰</p>
+    </div>
+    <div class="photo-box">
+      <img src="B3.jpeg" alt="Moment 3">
+      <p>Radhe Radhe❤️</p>
+    </div>
+  </section>
+
+  <!-- Image Slider Start -->
+<div class="slider-wrapper">
+  <div id="birthdaySlider" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner rounded-4 shadow">
+      <div class="carousel-item active">
+        <img src="S4.jpeg" class="d-block w-100 slider-img" alt="Slide 1">
+      </div>
+      <div class="carousel-item">
+        <img src="S5.jpeg" class="d-block w-100 slider-img" alt="Slide 2">
+      </div>
+      <div class="carousel-item">
+        <img src="S6.jpeg" class="d-block w-100 slider-img" alt="Slide 3">
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <section class="photo-note">
+    <div class="photo-box">
+      <img src="A1.jpeg" alt="Moment 1">
+      <p>Jab aap muskurati hai na toh, lagta hai ki saari duniya roshan ho gayi apko aise Haste dekh kar mujhe bhut sukoon milta hai💖</p>
+    </div>
+    <div class="photo-box">
+      <img src="A2.jpeg" alt="Moment 2">
+      <p>Once Again Happy Birthday my Queen Thank you for coming in my life...🥰</p>
+    </div>
+    <div class="photo-box">
+      <img src="A3.jpeg" alt="Moment 3">
+      <p>Dekhiye aap kitni acchi lagti hai aise jab khush rahti hai to maan karta Nazar uthar lu dekh kr bhut khushi hoti jaan, Hamesha aise hi Khush rahan kariye.❤️</p>
+    </div>
+    <div class="photo-box">
+      <img src="A5.jpeg" alt="Moment 4">
+      <p>Ye Raju Bhaiya ke time ka pic hai na beta Bhut pyaari lagti aap isme 💫</p>
+    </div>
+    <div class="photo-box">
+      <img src="A4.jpeg" alt="Moment 5">
+      <p>Aap mere sapno ki nahi, meri haqeeqat ki rani hai...Or mai bhut Lucky hu ki aap meri hai or mai aapko Thanks to Bappa Jinhone mujhe aapse Joda...Kitna pyaari lag rhi Saadi me Haaaye..👑</p>
+    </div>
+  </section>
+
+  <!-- Card End -->
+
+  <section class="message">
+    <p>Jaan,<br><br>
+    Bolne ko to bhut kuch dil kar rha hai par samjh nahi aa rha ki kya bolu kyuki mai bhut jada bol deta hu na bina matalb ke jada tar meri baate faltu hi hoti hai boring jaise ki yehi dekh lijiye itna likha per koi sense nahi.....🌸chaliye point pr aate hai
+    jaan aapka Janamdin hai Or ye 1st time hai ki mai iss baar mumbai me hu aapke itne pass, rah to mai kaafi dino se raha par apke birthday aane se pahele hi mujhe gaon jana padhta tha,,,✨ Aap ne mera bhut saare birthday ko Spcial bnaya hai jitna ki maine kabhi socha bhi nahi tha..
+    mai bhi aapka birthday ka kaafi dino se wait kar rha tha beta kaafi khush bhi hu...par pata nahi aap khush hai ki nahi kyuki ye aapka 1st Birthday hai jisme Papa nhi honge.
+    Unki koi kami to puri nahi kar sakta par jaan wo humare yaado me hamesha rahenge....hamesha...aaj aapke iss khaas din par maine apna thoda efforts daalke aapke liye ye website banaya hu jisse meri practice bhi ho gayi or aapke liye ye mera gift samjh lijiye hehehee....ye aapke kisi kaam ka to nahi per isme meri bhut saari feelings hai
+    mai sirf apni hi baat kiye jaa rha aaj apka din hai or apki to baat hi nahi kiya btao bhala vaise ek sach sach baat bolu pakka aap naa bhut pyaari lag rhi....✨ aree sach me jaan ekdam mast bas thoda sa smile kr dijiye maan na kare fir bhi...vaise aap to mere liye bhut special hai bhut jada or ye sab karna mere liye kuch nahi...mai aapke liye bhut kuch karna chhahta hu bhut kuch jitnaa karta hu utna accha feel hota mujhe aapko khush dekh kar....
+    aapko mahenga gift bhi dena chhata hu ap aap nhi lengi apko khushi bhi ki nahi kyuki janta hu aap nahi chhati ki mai Papa ka paisa apke uper karch kru
+    or iske liye jaan jab meri Job lag jaayega na to mai kuch pyara sa gift dunga aapko....apne kamaye huye paiso se....Mai bhut kuch karna chhata mai aapka birthday bhut acche se celebrate karna chhata hu par pata nahi kar paaunga ki nahi kyuki aap to ab milne bhi nahi aa rhii mujhe aap time bhi nahi de rhi pr ab mai apko samjhta hu jaan gussa nhi aane detaa khud ko mana leta hu
+    ptaa hai mujhe hasi aa rhi mai baar baar apni baat krne lag jaa rha kya karu shikayat karne ki aadat hai na vaise ek baat btau I love you so so much jaan aap mere liye bhut jada special hai or apka birthday bhi...kyuki iss din aap mere liye dharti par aayi thi...hehe Ap bhut Samjhdar hai bhut shant hai...❤️ sab pressure akele hi jhel leti bhut  strong hai par mai apka husband hone ke naate chhata hu ki aap mujhse sab share kiya kariye mai to aapko
+    koi gift nahi de rha aap hi de dijjiye ye gift samjh kar ki aap abse apni saari problem mujhse share karengi..
+    Jaan aap meri  life ka bhut Khubsurat part hai or mai isko kabhi bhi khona nahi chhata hu aapke binna mujhe kuch bhi accha nahi lagta mai bhut akela feel karta hu...🌸
+    kyuki mera sab aap hi hai partner bhi, dost bhi,  bestfriend bhi, wife bhi, supporter bhi sab kuch...jab aap gussa ho jaati to aisa lagta mai kya kaaru kaise manau ky galti ho gayi mai  rah nahi pata hu bhut bura lagta hai💖
+    Aapka ye din utna hi khubsurat ho jitna aapka dil hai, aur aapki life utni hi roshan ho jitna aapka naam — Sapna. 🌹💫
+
+    <br><br>
+    Jaan mujhe kuch samjh nahi aa rha mai pata nahi ky ky likh rha..🌸
+    <br><br>
+    Bas itna Samjh lijiye mai apni feelings Express nahi kar paa rha par mai aapko bhut khush dekhna chhata hu aap hamesha Healty rahe, aapko sabka khub pyaar mile, mai apko
+    khub pyaar du khub Khush rakhu aapki jo bhi wish ho wo aapko mile life me Bappa wo sb aapko de jo aap chahti hai
+    Apki saari wish puri ho or mujhe btayengi to mai puri koshish karunga jaan Aap aisa kabhi maan sochiyega ki  apka birthday  hai to  ye sab bol  rha baad me bhul jaaunga don't worry mai hamesha apke liye accha hi sochta hu or apko khush dekhna chahta hu  kyuki mujhe bhut jada sukoon milta  apko hasta dekh ker
+    Ap sab kuch deserve krti kyuki ap bhut acchi insaan hai apke life me bhut limited log hai or ap sabko sath leke chalti  papa ke  jaise sabke maare me sochti aap itne din se aap mere sath hai apko dekhte aa rha aap kabhi bhi kisi ka bura nahi sochti na na hi  kuch ulta bolti kisi  ke  baare me 
+    iske  liye shayad Bappa aake Best friend hai or apse baa  krte wo ....❤️or apkka jada test bhi lete 💫
+    Jaan mai itna boolna chahta hu  ki apko khud ko change karne ki jarurat nahi jaisi  hai aap best hai sirf aapko jo bhi raha kare mujhse share kiya kariye mai  galat samjhu to bhi share kariyye or ager mai nahi  samjhu to plz samjhaya kariye apna samjh kr kyuki mai aapka hi hu 
+    mai  Apni feelings express nahi kar paa rha jaan But i really love you so so much dil se dhanyawaad meri life me aane ke liye or meri life ko itna accha banane ke liye ager koi or milti aapki  jagah  to pata nahi ky ky krti  mere sath or kabka chod kr chali gayi hoti <br><br>
+    <b>Apko Jo Bhi Chahiye Aap Bol Dijiyega Mujhse Mai Puri Koshish Karunga Dene ki  Ager Dene layak raha Toh🌹</b><br><br>
+    Kaafi  kuch likh diya per jaisa likhna chah rha vaisa nahi likh paya kisi or din apko express kr dungaa ap bhi to padhte padhte thak gayi na puraa brithday mera samjh msg padh kr to nikalengi nahi iske liye rahene dete hai mere bhi dimaag kaam nahi kar rha acche se soya nahi hu sir dard kr rha or shayad kaam  bhi nahi kar rha to kisi  din ache se baat karenege apke baare
+    💖<br><br>
+    Aapka janamdin mere liye kisi tyohar se kam nahi hai...Aap meri zindagi ka sabse khoobsurat hissa hain...aap ne meri life mein sirf pyaar nahi,
+    ek naya ehsaas, ek nayi roshni, aur ek nayi umeed bhar di hai....❤️Ap hamesha mere baare me sochti hai jaan bhut kuch karti mere liye or meri khushiyon ke liye mai kuch nahi kar pata aapke liye..❤️
+    Aap jaise life partner ke liye main har roz Bappa ka shukriya ada karta hoon. Aapka hona meri zindagi ki sabse badi khushi hai...bappa ke wajah se hum dono mile or itne dino tak sath hai...
+    Aapka naam hi kaafi hai mere chehre pe muskaan lane ke liye. Aap sirf meri girlfriend nahi, meri duaon ka jawaab ho, meri khushiyon ki wajah ho, meri life ka sabse haseen ehsaas ho. 🌸
+    Mujhe kabhi nahi laga tha ki kisi ki aankhon mein apna poora future dikh sakta hai... par aapko dekhkar sab kuch badal gaya. Aapki har ek baat, har ek muskaan, har ek nazar sab kuch mere dil ko chu jaata hai jaan..
+    Main chahta hoon ki aapki zindagi mein kabhi koi gham na aaye, aur agar kabhi kuch mushkil ho bhi, toh main hamesha aapke saath khada rahun ek chattan ki tarah, ek partner ki tarah, ek humsafar ki tarah. 💪🏻💖
+    Aap jaise insaan se pyaar milna mere liye sirf pyaar nahi, ek zimmedaari bhi hai — aapko hamesha khush rakhne ki, aapko value dene ki, aur har moment aapke liye memorable banane ki. ✨
+
+    <br><br>I feel proud calling you <b>"Meri Wali"</b>
+    Aur ek din... sab kuch officially kehne ka intezaar hai —
+    “Will you be mine forever?” 💍
+
+    Happy Birthday once again beta, meri sabse pyaari sweety, sabse izzatdaar karejaa, aur sabse special Person.❤️🎉
+    Thank you jaan apne Boring Husband ka itna Boring Msg Padhne ke liye,<br>
+    Aakash❤️</p>
+  </section>
+
+  <section class="photo-note">
+    <div class="photo-box">
+      <img src="AS4.jpeg" alt="Moment 1">
+      <p>Apko dekh kar jo sukoon milta hai jaan wo kisi or cheez me nahi maan karta ki ghanto apko dekhta rahu...💖</p>
+    </div>
+    <div class="photo-box">
+      <img src="AS6.jpeg" alt="Moment 2">
+      <p>Ye tab ki pic hai jab hum starting me ek dusre se mila karte the metromall me or ek dusre ko janne ke koshish karte the🥰</p>
+    </div>
+    <div class="photo-box">
+      <img src="AS1.jpeg" alt="Moment 3">
+      <p>Ye Pic humne Bandstand pe li thi beta jab or bhut dino tab mujhse baat nahi ki thi or gussa ho gayi thi fir humne milke sab Shortout kiya or !st time Kiss bhi..❤️</p>
+    </div>
+    <div class="photo-box">
+      <img src="AS2.jpeg" alt="Moment 4">
+      <p>National Park jab gye the hum log !st time or bhut Enjoy kye the Or fir aap gussa bhi ho gayi thi Mai aapke sath Pic lene se mana kar diya tha to... 💫</p>
+    </div>
+    <div class="photo-box">
+      <img src="AS9.jpeg" alt="Moment 5">
+      <p>Future me hum dono ki  Jodi aisi lagegi jaan ye pic mujhe bhut accha lagta hai isme aap Ekdam Pyaari dikhti hai👑</p>
+    </div>
+    <div class="photo-box">
+      <img src="AS3.jpeg" alt="Moment 5">
+      <p>Ye Jab Humne Titwala jaate !st time sath me Boat me baithe the jaan !st time boating kiye the ye bhi Accha Memorie hai..🥰</p>
+    </div>
+    <div class="photo-box">
+      <img src="AS5.jpeg" alt="Moment 4">
+      <p>Aapne mujhe mere Birthday pr Jab Surprise diya tha Kitna Accha tha wo din or kitne khush the hum dono ek dusre ke sath I miss those Days..🥰</p>
+    </div>
+    <div class="photo-box">
+      <img src="AS8.jpeg" alt="Moment 5">
+      <p>Ye photo tabki hai jab humne 1st time sath me movie dekha tha jaan Theater me jaate kaafi  Accha laga tha Mai life me 1st time Cinema Hall me gya tha wo bhi apke sath👑</p>
+    </div>
+    <div class="photo-box">
+      <img src="AS7.jpeg" alt="Moment 5">
+      <p>Ye photo bhi bandstand ka hi hai iss din hum dono chattan pr baithe the or iss din aap baar baar bhag bhag kr Paani me jaa rhi thi khub khel rhii thii👑</p>
+    </div>
+  </section>
+
+  <!-- Card End -->
+
+  <section class="message">
+    <p>I want to Create more memories with you jaan...❤️</p>
+  </section>
+
+
+  <button class="reveal-btn" onclick="showSurprise()">Click to Reveal Your Surprise 💌</button>
+
+<div id="secret" style="display: none;">
+  <p>🌟 Surprise! There’s more coming for you… just like how my love for you keeps growing every day. This is just the beginning! Can’t wait to see your smile when you open your gift. 💝<br><br></p>
+  
+  <!-- YouTube iframe embedded correctly -->
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/wrHTCcbRXw4?si=j8lDDLd7zElBRi4G" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br><br>
+  
+  <p>Happy Birthday once again, meri jaan! 🎉🎈</p>
+</div>
+
+<script>
+  function showSurprise() {
+    const secret = document.getElementById("secret");
+    secret.style.display = "block";
+    secret.scrollIntoView({ behavior: 'smooth' });
+  }
+</script>
+
+</body>
+</html>
